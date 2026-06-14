@@ -49,7 +49,6 @@ AI-AEO/
       utils/
   docs/
     ARCHITECTURE.md
-  .env.example
   .gitignore
   LICENSE
   package.json
@@ -83,7 +82,7 @@ Security and configuration:
 
 - Secrets are not committed.
 - `.env` is ignored by git.
-- `.env.example` documents the required live-agent settings.
+- Required live-agent settings are documented in `README.md`.
 - API keys are read from `APLAYER_AUTHENTICATION` or `APLAYER_API_KEY`.
 
 ## Runtime Flow
@@ -189,7 +188,7 @@ The external Lambda can time out. The backend uses `APLAYER_TIMEOUT_MS` and fall
 
 Secret handling:
 
-The user provided a key in a curl example, but the project should not commit secrets. We kept credentials in `.env`, documented them in `.env.example`, and left `.env` ignored.
+The user provided a key in a curl example, but the project should not commit secrets. We kept credentials in `.env`, documented the required keys in `README.md`, and left `.env` ignored.
 
 Local server sandboxing:
 

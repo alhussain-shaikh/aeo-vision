@@ -18,7 +18,6 @@ pids/
 # Environment files
 .env
 .env.*
-!.env.example
 
 # Build output
 dist/
@@ -38,4 +37,3 @@ Thumbs.db
 *.local
 reports/
 exports/
-.vercel

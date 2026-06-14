@@ -16,9 +16,10 @@ http://127.0.0.1:8787
 
 ## Optional Live Agent
 
-Copy `.env.example` to `.env` and configure:
+Create a local `.env` file when you want live agent analysis:
 
 ```bash
+APLAYER_AGENT_URL=https://your-agent-endpoint.example/send_message
 APLAYER_AUTHENTICATION=api-key your-real-key
 APLAYER_USER_ID=your.email@example.com
 APLAYER_TIMEOUT_MS=55000
