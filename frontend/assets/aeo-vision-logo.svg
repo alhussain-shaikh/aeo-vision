@@ -1,0 +1,30 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AEO Vision circular mark</title>
+  <desc id="desc">A monochrome circular signal map symbol with orbit lines and connected analysis points.</desc>
+  <defs>
+    <filter id="softShadow" x="2" y="2" width="92" height="92" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#0B0A09" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <circle cx="48" cy="48" r="41" fill="#15130F" filter="url(#softShadow)"/>
+  <circle cx="48" cy="48" r="40.2" stroke="#F4F0E7" stroke-opacity="0.22" stroke-width="1.6"/>
+  <circle cx="48" cy="48" r="28.4" stroke="#F4F0E7" stroke-opacity="0.14" stroke-width="1.4"/>
+  <circle cx="48" cy="48" r="17.2" stroke="#F4F0E7" stroke-opacity="0.1" stroke-width="1.2"/>
+
+  <path d="M23 43.4C32.1 28.4 53.1 23.4 69.2 33.4" stroke="#F4F0E7" stroke-linecap="round" stroke-width="4.4"/>
+  <path d="M22.6 57.3C32.6 70.6 55.6 74.6 72.6 57.5" stroke="#F4F0E7" stroke-linecap="round" stroke-width="4.4" opacity="0.72"/>
+  <path d="M31.7 69.1C26.2 55.7 28.5 38.7 40.9 28.2" stroke="#F4F0E7" stroke-linecap="round" stroke-width="2.2" opacity="0.16"/>
+  <path d="M64 26.8C73.9 39.3 75 55.2 65.4 68.8" stroke="#F4F0E7" stroke-linecap="round" stroke-width="2.2" opacity="0.16"/>
+
+  <path d="M48 27.2L58.8 48L48 68.8L37.2 48L48 27.2Z" fill="#F4F0E7"/>
+  <path d="M48 37.3L53.6 48L48 58.7L42.4 48L48 37.3Z" fill="#15130F"/>
+  <circle cx="48" cy="48" r="4.1" fill="#F4F0E7"/>
+
+  <circle cx="23" cy="43.4" r="3.2" fill="#F4F0E7"/>
+  <circle cx="69.2" cy="33.4" r="3.2" fill="#F4F0E7"/>
+  <circle cx="22.6" cy="57.3" r="3.2" fill="#F4F0E7"/>
+  <circle cx="72.6" cy="57.5" r="3.2" fill="#F4F0E7"/>
+  <circle cx="48" cy="22.5" r="2.4" fill="#F4F0E7" opacity="0.88"/>
+  <circle cx="48" cy="73.5" r="2.4" fill="#F4F0E7" opacity="0.64"/>
+</svg>

@@ -1,0 +1,13 @@
+{
+  "name": "aeo-vision-agentic-aeo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-static.mjs",
+    "dev": "node backend/server.js",
+    "start": "node backend/server.js",
+    "check": "node --check backend/server.js && node --check backend/lib/auditEngine.js && node --check backend/lib/agentClient.js && node --check backend/lib/systemPrompt.js && node --check frontend/src/main.js && node --check api/_utils.js && node --check api/health.js && node --check api/audit.js && node --check api/report.js && node --check scripts/build-static.mjs && node --check scripts/test-agent-scenarios.mjs",
+    "test:agent": "node scripts/test-agent-scenarios.mjs"
+  }
+}
