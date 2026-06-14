@@ -235,7 +235,7 @@ Backend:
 
 Agent:
 
-- APlayer agent hosted behind an AWS Lambda function URL.
+- APlayer agent hosted behind an AWS Lambda function URL.(Lang-graph) Deployed agent as lambda function
 - AEO system prompt sent through the user-message payload for compatibility.
 - Specialist-agent reasoning model: Entity, Citation, Schema, Content, and Crawler.
 - JSON-first output contract with safe parsing and fallback behavior.
